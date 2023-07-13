@@ -1,6 +1,7 @@
 # bookmark2screenshot
 Browse your bookmarks as screenshots.
-Go from a bookmarks file to galler of screenshots of the bookmarks.
+Go from a bookmarks file to a gallery of screenshots of the websites the bookmarks link to.
+(Also, just an en-masse website screenshotting tool ;-)
 
 More info on the [WIKI](https://github.com/s7ephen/bookmark2screenshot/wiki)
 
