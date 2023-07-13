@@ -18,5 +18,5 @@ Files:
 |-|-|
 |`bookmark2screenshot_gallerymaker.sh`| Script to download and execute the gallerymaking container (optional)
 |`bookmark2screenshot.py`| The main thing. but woefully needy. Needs to be containerized, but it is so needy, that its needs have more needs. I have not yet found a way to make it stop complaining when i put it in a docker prison.|
-|`Dockerfile`| the source Dockerfile for this container https://hub.docker.com/r/sa7ori/bookmark2screenshot_gallerymaker cuz Docker doesnt bundle the source file in the container and is dumb like the Howard Rourke's columns on the Parthenon|
+|`Dockerfile`| the source Dockerfile for this container https://hub.docker.com/r/sa7ori/bookmark2screenshot_gallerymaker cuz Docker doesnt bundle the source file in the docker image. Docker gives me serious Howard Rourke sh*tting on the Parthenon feels.|
 
