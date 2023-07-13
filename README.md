@@ -1,8 +1,15 @@
 # bookmark2screenshot
 Browse your bookmarks as screenshots.
-Go from a bookmarks file to a directory full of screenshots of the bookmarks.
+Go from a bookmarks file to galler of screenshots of the bookmarks.
 
 More info on the [WIKI](https://github.com/s7ephen/bookmark2screenshot/wiki)
+
+Files:
+|File | Description | 
+|-|-|
+|`bookmark2screenshot_gallerymaker.sh`| Script to download and execute the gallerymaking container (optional)
+|`bookmark2screenshot.py`| The main thing. but woefully needy. Needs to be containerized, but it is so needy, that it's needs have needs that I have not met.|
+|`Dockerfile`| the source Dockerfile for this container https://hub.docker.com/r/sa7ori/bookmark2screenshot_gallerymaker cuz Docker doesnt bundle the source file in the container and is dumb like the Howard Rourke's columns on the Parthenon|
 
 |From this | To This | 
 |-|-|
