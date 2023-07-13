@@ -32,4 +32,4 @@ echo "Gallery being created in: $2";
 # which tells fgallery to use a neat feature it has
 # which is to pull comment exif data out of the image files
 # and use it as text annotation in the generated gallery.
-sudo docker run -it -v $1:/photos -v $2:/output sa7ori/bookmark2screenshot_gallerymaker -c txt /photos /output/gallery
+docker run -it -v $1:/photos -v $2:/output sa7ori/bookmark2screenshot_gallerymaker -c txt /photos /output/gallery
